@@ -1,0 +1,31 @@
+\documentclass[11pt]{scrartcl}
+\usepackage[sexy]{evan}
+\usepackage{answers}
+\Newassociation{hint}{hintitem}{all-hints}
+\renewcommand{\solutionextension}{out}
+\renewenvironment{hintitem}[1]{\item[\bfseries #1.]}{}
+
+\input{macros.tex}
+
+\begin{document}
+\thispagestyle{empty}
+\homework{Homework \#1}{Due: }{Ekesh Kumar}{}{UID: 1234567890}{}{MATH 123: Class Name}{Professor Fu}
+
+\begin{example}
+[This field is optional]
+Insert a problem here.
+\end{example}
+
+\begin{lemma}
+My lemma.
+\end{lemma}
+
+\begin{proof}
+It's trivial.
+\end{proof}
+
+\newpage
+
+
+
+\end{document}

@@ -1,0 +1,20 @@
+\newcommand{\homework}[8]{
+   \thispagestyle{plain}
+   \newpage
+   \setcounter{page}{1}
+   \noindent
+   \begin{center}
+   \framebox{
+      \vbox{\vspace{2mm}
+    \hbox to \textwidth { { {#7}  \hfill { {#8} }} }
+       \vspace{6mm}
+       \hbox to \textwidth { {\Large \hfill #1  \hfill} }
+       \vspace{6mm}
+       \hbox to \textwidth { { Name: {#3} \hfill {#5} {#6}} }
+       %\hbox to 6.28in { {\it TA: #4  \hfill #6}}
+      \vspace{2mm}}
+   }
+   \end{center}
+   \markboth{#5 -- #1}{#5 -- #1}
+   \vspace*{4mm}
+}%
